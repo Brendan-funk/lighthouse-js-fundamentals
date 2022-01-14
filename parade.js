@@ -24,6 +24,3 @@ const finalPosition = function (moves) {
   }
   return final;
 }
-const moves = ['north', 'north', 'west', 'west', 'north', 'east','north'];
-
-console.log(finalPosition(moves));
