@@ -1,7 +1,7 @@
 const range = function(start,end,step){
   
   //checking if the inputs are valid, if not return empty array
-  if(start < 0 || start === null || end === null || step === null || end < start){
+  if(step <= 0 || start === null || end === null || step === null || end < start){
     return [];
   }
   else{
