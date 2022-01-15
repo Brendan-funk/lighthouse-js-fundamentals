@@ -11,7 +11,7 @@ const range = function(start,end,step){
     let i = start;
 
     //looping through the count adding the number to the array each time
-    while(i < end){
+    while(i <= end){
       arr.push(i);
       i += step;
     }
